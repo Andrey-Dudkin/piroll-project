@@ -1,0 +1,136 @@
+// *about first screen
+.about_first_screen{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #3e3e3e;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin-top: 100px;
+}
+.about_first_screen_contaoner{
+    text-align: center;
+}
+.about_first_screen_title{
+    font-weight: 700;
+    font-size: clamp(25px, 8vw, 38px);
+    color: #ffffff;
+    margin-bottom: 39px;  
+}
+.about_first_screen_description{
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+// *advantages
+.advantages{
+    max-height: 100%;
+    min-height: 240px;
+    background-color: #10c9c3;
+    padding: 50px 0;    
+}
+.advantages_container{
+    min-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.advantage{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.advantage_icon_01{
+    width: 44px;
+    height: 40px;
+    background: url("../icons/advantages-icon-01.png") no-repeat;
+}
+.advantage_icon_02{
+    width: 40px;
+    height: 44px;
+    background: url("../icons/advantages-icon-02.png") no-repeat;
+}
+.advantage_icon_03{
+    width: 44px;
+    height: 40px;
+    background: url("../icons/advantages-icon-03.png") no-repeat;
+}
+.advantage_icon_04{
+    width: 42px;
+    height: 40px;
+    background: url("../icons/advantages-icon-04.png") no-repeat;
+}
+.advantage_description{
+    .advantage_number{
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+    .advantage_text{
+        font-weight: 500;
+        font-size: 12px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
+
+// *about me
+.about_me{
+    max-width: 100%;
+    min-height: 200px;
+    background-color: #f5f5f5;
+}
+.about_me_flex_contaoner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block_gray{
+    width: 683px;
+    min-height: 568px;
+    background-color: #e1e1e1;
+}
+.about_me_container_text{
+    max-width: 500px;
+}
+.about_me_title{
+    padding-top: 140px;
+    margin-bottom: 40px;
+}
+.about_me_description{
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 35px;
+}
+.signature{
+    width: 224px;
+    height: 61px;
+    background: url("../images/signature.png") no-repeat;
+    margin: 0 auto;
+}
+
+// *contact me
+.contact_me{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+.contact_me_container{
+    text-align: center;
+}
+.contact_me_title{
+    margin-bottom: 40px;
+}
+.contact_me_title_description{
+    font-size: 16px;
+    color: #787878;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}

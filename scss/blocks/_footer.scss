@@ -1,0 +1,61 @@
+// *footer
+.footer{
+    max-width: 100%;
+    min-height: 283px;
+    background-color: #141414;
+}
+.footer_container{
+    padding-top: 98px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.name_company{
+    font-weight: 500;
+    font-size: 18px;
+     color: #ffffff;
+     margin-bottom: 32px;
+}
+.copywriting_text{
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.contact_info_text{
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.menu_footer{
+    display: flex;
+    column-gap: 60px;
+}
+.menu_list_footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    .menu_link{
+        font-weight: 400;
+        font-size: 15px;
+        color: #bcbcbc;
+        transition: color 1s ease;
+        &:hover{
+            color: #10c9c3;
+        }
+    }
+}
+.social_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    .social_link{
+        font-weight: 400;
+        font-size: 15px;
+        color: #bcbcbc;
+        transition: color 1s ease;
+        &:hover{
+            color: #10c9c3;
+        }
+    }
+}

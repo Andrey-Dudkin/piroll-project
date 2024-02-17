@@ -1,0 +1,44 @@
+@media(max-width: 1025px){
+    /* *skills */
+    .skills_block_gray{
+        flex-basis: 100%;
+    }
+
+    /* *project */
+    .project_container{
+        flex-wrap: wrap;
+    }
+    .block_gray_project{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 769px){
+    .first_screen,.about_us,.about_first_screen,.about_me{
+        padding-bottom: 100px;
+    }
+
+    /* *header */
+    .navbar {
+        min-height: 50px;
+    }
+    
+    /* *first screen */
+    .first_screen_block_text {
+        padding-top: 50px;
+    }
+
+    /* *skills */
+    .progress_bar {
+        width: 100%;
+    }
+
+    /* *services */
+    .services_container{
+        justify-content: center;
+    }
+    /* *forma */
+    .user_name, .user_email {
+        width: 100%;
+    }
+}

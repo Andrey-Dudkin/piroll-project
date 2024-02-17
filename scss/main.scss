@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import "./blocks/_header.scss";
+@import "./blocks/index.scss";
+@import "./blocks/_home.scss";
+@import "./blocks/_about.scss";
+@import "./blocks/_project.scss";
+@import "./blocks/_contact.scss";
+@import "./blocks/_footer.scss";
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.page_button{
+    width: 179px;
+    min-height: 54px;
+    background-color: #10c9c3;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #191919;
+    padding-top: 101px;
+}
+.navbar_fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.contact_with_me_forma{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.flex_container_first_last_name{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.user_name,.user_email{
+    width: 322px;
+    .contact_form_input{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        padding-left: 19px;
+    }
+}
+.user_title{
+    max-width: 673px;
+    .input_user_title{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        padding-left: 19px;
+    }
+}
+.contact_form_input::-webkit-input-placeholder{
+    font-size: 15px;
+    color: #787878;
+}
+.your_comment{
+    max-width: 670px;
+    .your_comment_textarea{
+        width: 100%;
+        height: 170px;
+        background-color: #ffffff;
+        outline: none;
+        padding-top: 17px;
+        padding-left: 19px;
+    }
+}
+// .border_input{
+//     border: solid 2px #ff0000;
+// }
+// .error_text{
+//     display: none;
+//     font-weight: 500;
+//     font-size: 12px;
+//     color: #ff0000;
+//     text-transform: uppercase;
+//     padding-top: 10px;
+// }
+// .error_text_show{
+//     display: block;
+// }
